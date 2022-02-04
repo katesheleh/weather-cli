@@ -1,0 +1,25 @@
+{
+  "name": "get-weather-cli",
+  "version": "1.0.0",
+  "private": false,
+  "description": "CLI for getting weather",
+  "main": "index.js",
+  "bin": "./index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "weather"
+  ],
+  "author": "Katia Sheleh",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://test.com"
+  },
+  "bugs": {
+    "url": "https://test.com",
+    "email": "kate.sheleh@gmail.com"
+  }
+}
