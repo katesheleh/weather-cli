@@ -1,11 +1,15 @@
 {
-  "name": "get-weather-cli",
+  "name": "weather-cli-demo-ks",
   "version": "1.0.0",
   "private": false,
   "description": "CLI for getting weather",
-  "main": "index.js",
-  "bin": "./index.js",
+  "main": "weather.js",
+  "bin": {
+    "weather": "weather.js"
+  },
+  "type": "module",
   "scripts": {
+    "start": "node weather.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -16,10 +20,15 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "https://test.com"
+    "url": "https://github.com/katesheleh/weather-cli"
   },
   "bugs": {
-    "url": "https://test.com",
+    "url": "https://github.com/katesheleh/weather-cli",
     "email": "kate.sheleh@gmail.com"
+  },
+  "dependencies": {
+    "axios": "^0.25.0",
+    "chalk": "^5.0.0",
+    "dedent-js": "^1.0.1"
   }
 }
